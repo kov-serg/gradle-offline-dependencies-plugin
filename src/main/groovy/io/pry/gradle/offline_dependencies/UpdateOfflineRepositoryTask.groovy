@@ -61,7 +61,7 @@ class UpdateOfflineRepositoryTask extends DefaultTask {
                 files.each { File file -> project.copy { from file into directory rename { file.name } } }
             }
         }
-    
+    }   
 
     // configurations
     private Set<Configuration> getConfigurations() {
