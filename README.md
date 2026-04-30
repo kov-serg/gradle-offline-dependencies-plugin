@@ -4,7 +4,7 @@
 
 This plugin resolves your project dependency artifacts (jar, javadoc, pom, etc.), including transitive ones, and stores them alongside your code. This way you can always build your project without having to fetch dependencies from remote servers.
 
-Tested with Gradle 5.1
+Tested with Gradle 8.11.1
 
 ## How to integrate
 
