@@ -183,3 +183,8 @@ dependencies {
   compile 'com.google.guava:guava:19.0'
 }
 ```
+
+## build.gradle.kts
+```
+extra["offlineRepositoryRoot"] = "${project.rootDir}/offline-repo"
+```
